@@ -27,9 +27,14 @@ This userscript enhances your Steam community discussion experience by automatic
    - *Other browsers*: Use Violentmonkey or Greasemonkey if supported.
 
 ### Add the Script
-1. Click the Tampermonkey icon in your browser toolbar > "Create a new script".
-2. Copy the full script (from `// ==UserScript==` to `})();`) from [the script file](#) and paste it into the editor.
-3. Press `Ctrl + S` or *File > Save* to activate it.
+1. **Automatic Install**: 
+   - Click the script file in this repo (e.g., [`script.js`](./script.js)).
+   - Click the "Raw" button to view the raw file.
+   - Tampermonkey will detect it and prompt you to install—click "Install".
+2. **Manual Install**:
+   - Click the Tampermonkey icon in your browser toolbar > "Create a new script".
+   - Copy the full script (from `// ==UserScript==` to `})();`) from [the script file](./script.js) and paste it into the editor.
+   - Press `Ctrl + S` or *File > Save* to activate it.
 
 ### Customize Filters (Optional)
 1. Edit the `const filters = [` section:
