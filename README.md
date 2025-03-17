@@ -54,3 +54,5 @@ This userscript enhances your Steam community discussion experience by automatic
 - Adjust filters if too many/few posts are hidden, then save & refresh.
 
 **Enjoy!** Filters out Jester-awarded or keyword-matched posts with a toggleable counter.
+<br><br>
+![steamcommunity_filter](https://github.com/user-attachments/assets/e80c6fc9-8b6a-4d3e-b874-cea21e83a40c)
