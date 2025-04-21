@@ -27,13 +27,13 @@ This userscript enhances your Steam community discussion experience by automatic
    - *Other browsers*: Use Violentmonkey or Greasemonkey if supported.
 
 ### Add the Script
-1. **Automatic Install**: 
-   - Click the script file in this repo (e.g., [`script.js`](./script.js)).
-   - Click the "Raw" button to view the raw file.
-   - Tampermonkey will detect it and prompt you to install—click "Install".
+1. **Automatic Install**:
+   - *Chrome Users*: Click the Chrome script file in this repo ([`script.js`](./script.js)). Click the "Raw" button to view the raw file. Tampermonkey will detect it and prompt you to install—click "Install".
+   - *Firefox Users*: Click the Firefox script file in this repo ([`script_firefox.js`](./script_firefox.js)). Click the "Raw" button to view the raw file. Tampermonkey will detect it and prompt you to install—click "Install". This version is optimized to prevent page freezing in Firefox.
 2. **Manual Install**:
    - Click the Tampermonkey icon in your browser toolbar > "Create a new script".
-   - Copy the full script (from `// ==UserScript==` to `})();`) from [the script file](./script.js) and paste it into the editor.
+   - *Chrome Users*: Copy the full script (from `// ==UserScript==` to `})();`) from [the Chrome script file](./script.js) and paste it into the editor.
+   - *Firefox Users*: Copy the full script (from `// ==UserScript==` to `})();`) from [the Firefox script file](./script_firefox.js) and paste it into the editor.
    - Press `Ctrl + S` or *File > Save* to activate it.
 
 ### Customize Filters (Optional)
@@ -46,8 +46,8 @@ This userscript enhances your Steam community discussion experience by automatic
 ### Use on Steam
 1. Go to a Steam discussion page (e.g., `https://steamcommunity.com/app/APPID/discussions/`).
 2. Posts with Jester awards (non-stickied) or matching filters hide automatically.
-3. See “, X hidden” at the page bottom (e.g., “, 5 hidden”).
-4. Click “, X hidden” to toggle showing/hiding filtered posts.
+3. See “X hidden” at the page bottom (e.g., “5 hidden”).
+4. Click “X hidden” to toggle showing/hiding filtered posts.
 
 ### Troubleshooting
 - *Not working?* Check URL matches `https://steamcommunity.com/app/*/discussions/*`, Tampermonkey is on, refresh page.
